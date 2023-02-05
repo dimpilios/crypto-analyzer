@@ -1,0 +1,9 @@
+com.dimitris.cryptoanalyze
+com.dimitris.cryptoanalyze.controller
+com.dimitris.cryptoanalyze.controller.dto
+com.dimitris.cryptoanalyze.service
+com.dimitris.cryptoanalyze.service.enums
+com.dimitris.cryptoanalyze.service.exception
+com.dimitris.cryptoanalyze.service.impl
+com.dimitris.cryptoanalyze.service.model
+com.dimitris.cryptoanalyze.service.util

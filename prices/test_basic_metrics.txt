@@ -1,0 +1,211 @@
+BTC
+oldest: 46813.21
+newest: 47017.98
+min: 46813.21
+max: 47722.66
+normal: 0.0194272087
+
+DOGE
+oldest: 0.1702
+newest: 0.1731
+min: 0.1702
+max: 0.1731
+normal: 0.0170387779
+
+ETH
+oldest: 3715.32
+newest: 3747
+min: 3697.04
+max: 3747
+normal: 0.01351351351
+
+LTC
+oldest: 148.1
+newest: 146.5
+min: 146.5
+max: 151.3
+normal: 0.0327645051
+
+XRP
+oldest: 0.8298
+newest: 0.8377
+min: 0.8298
+max: 0.8458
+normal: 0.01928175463
+
+----------------------------------
+PER DATE
+----------------------------------
+
+------ 2022-01-01
+
+BTC
+oldest: 46813.21
+newest: 47023.24
+min: 46813.21
+max: 47143.98
+normal: 0.00706574063
+
+DOGE
+oldest: 0.1702
+newest: 0.1727
+min: 0.1702
+max: 0.1727
+normal: 0.0146886016
+
+ETH
+oldest: 3715.32
+newest: 3727.61
+min: 3697.04
+max: 3727.61
+normal: 0.008268777
+
+LTC
+oldest: 148.1
+newest: 150
+min: 148.1
+max: 150.2
+normal: 0.0141796
+
+XRP
+oldest: 0.8298
+newest: 0.8458
+min: 0.8298
+max: 0.8458
+normal: 0.01928175463
+
+-----  2022-01-02
+
+BTC
+oldest: 47722.66
+newest: 47017.98
+min: 47017.98
+max: 47722.66
+normal: 0.014987458
+
+DOGE
+oldest: 0.1719
+newest: 0.1725
+min: 0.1719
+max: 0.1725
+normal: 0.0034904014
+
+ETH
+oldest: 3747
+newest: 3747
+min: 3743.17
+max: 3747
+normal: 0.001023
+
+LTC
+oldest: 151.3
+newest: 151.3
+min: 151.3
+max: 151.3
+normal: 0
+
+XRP
+oldest: 0.8391
+newest: 0.8448
+min: 0.8391
+max: 0.8448
+normal: 0.006792924
+
+-----  2022-01-03
+
+BTC
+
+DOGE
+oldest: 0.1731
+newest: 0.1731
+min: 0.1731
+max: 0.1731
+normal: 0
+
+ETH
+
+LTC
+oldest: 150.1
+newest: 150.1
+min: 150.1
+max: 150.1
+normal: 0
+
+XRP
+oldest: 0.8432
+newest: 0.8377
+min: 0.8377
+max: 0.8432
+normal: 0.00656559
+
+-----  2022-01-04
+
+BTC
+
+DOGE
+
+ETH
+
+LTC
+oldest: 149.3
+newest: 149.3
+min: 149.3
+max: 149.3
+normal: 0
+
+XRP
+
+-----  2022-01-05
+
+BTC
+
+DOGE
+
+ETH
+
+LTC
+oldest: 146.5
+newest: 146.5
+min: 146.5
+max: 146.5
+normal: 0
+
+XRP
+
+
+------ 2022-01-02 till now
+
+BTC
+oldest: 47722.66
+newest: 47017.98
+min: 47017.98
+max: 47722.66
+normal: 0.014987
+
+DOGE
+oldest: 0.1719
+newest: 0.1731
+min: 0.1719
+max: 0.1731
+normal: 0
+
+ETH
+oldest: 3747
+newest: 3747
+min: 3743.17
+max: 3747
+normal: 0.00251925
+
+LTC
+oldest: 151.3
+newest: 146.5
+min: 146.5
+max: 151.3
+normal: 0
+
+XRP
+oldest: 0.8391
+newest: 0.8377
+min: 0.8377
+max: 0.8448
+normal: 0.00656559
