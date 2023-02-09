@@ -27,28 +27,28 @@ public class CryptoValuesCsvReaderTest {
 
     @Test
     public void test_read_ok() throws CryptoInternalException {
-        List<CryptoValue> values = reader.read(CryptoEnum.btc, "C:\\Users\\dimpi\\IdeaProjects\\CryptoAnalyzer\\prices\\test_ok.csv");
+        List<CryptoValue> values = reader.read(CryptoEnum.btc, "prices\\test_ok.csv");
         assertEquals(values, expectedValues);
     }
 
     @Test
     public void test_read_header_missing_from_first_line() throws CryptoInternalException {
         Throwable throwable = assertThrows(CryptoInternalException.class,
-                () -> reader.read(CryptoEnum.btc, "C:\\Users\\dimpi\\IdeaProjects\\CryptoAnalyzer\\prices\\test_header_missing.csv"));
+                () -> reader.read(CryptoEnum.btc, "prices\\test_header_missing.csv"));
         assertEquals(throwable.getMessage(), "Error reading csv file. Header line is missing");
     }
 
     @Test
     public void test_read_column_missing() throws CryptoInternalException {
         Throwable throwable = assertThrows(CryptoInternalException.class,
-                () -> reader.read(CryptoEnum.btc, "C:\\Users\\dimpi\\IdeaProjects\\CryptoAnalyzer\\prices\\test_column_missing.csv"));
+                () -> reader.read(CryptoEnum.btc, "prices\\test_column_missing.csv"));
         assertEquals(throwable.getMessage(), "Error reading csv file. Entries with missing columns found");
     }
 
     @Test
     public void test_read_column_value_blank() throws CryptoInternalException {
         Throwable throwable = assertThrows(CryptoInternalException.class,
-                () -> reader.read(CryptoEnum.btc, "C:\\Users\\dimpi\\IdeaProjects\\CryptoAnalyzer\\prices\\test_column_value_blank.csv"));
+                () -> reader.read(CryptoEnum.btc, "prices\\test_column_value_blank.csv"));
         assertEquals(throwable.getMessage(), "Error reading csv file. Entries with missing columns found");
     }
 }

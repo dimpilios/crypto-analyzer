@@ -7,6 +7,7 @@ import com.dimitris.cryptoanalyze.service.enums.CryptoEnum;
 import com.dimitris.cryptoanalyze.service.exception.CryptoInternalException;
 import com.dimitris.cryptoanalyze.service.model.CryptoValue;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -22,7 +23,7 @@ public class FileDataLoader implements DataLoader {
     /**
      * System property specifying the format of file paths system properties used to load data for cryptos
      */
-    private final static String DATA_FILE_PATH_PROPERTY_FORMAT = System.getProperty("data.file.path.property.format");
+    private static String DATA_FILE_PATH_PROPERTY_FORMAT;
 
     private final CryptoValuesFileReader cryptoValuesReader;
 
@@ -36,6 +37,7 @@ public class FileDataLoader implements DataLoader {
     public FileDataLoader(CryptoValuesFileReader cryptoValuesReader, CryptoValuesManager cryptoValuesManager) {
         this.cryptoValuesReader = cryptoValuesReader;
         this.cryptoValuesManager = cryptoValuesManager;
+        DATA_FILE_PATH_PROPERTY_FORMAT = System.getProperty("data.file.path.property.format");
     }
 
     /**

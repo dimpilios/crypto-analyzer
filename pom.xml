@@ -60,11 +60,11 @@
                 <configuration>
                     <systemPropertyVariables>
                         <data.file.path.property.format>data.file.path</data.file.path.property.format>
-                        <data.file.path.btc>C:\\Users\\dimpi\\OneDrive\\Desktop\\Crypto_exercise\\prices\\BTC_values_test.csv</data.file.path.btc>
-                        <data.file.path.doge>C:\\Users\\dimpi\\OneDrive\\Desktop\\Crypto_exercise\\prices\\DOGE_values_test.csv</data.file.path.doge>
-                        <data.file.path.eth>C:\\Users\\dimpi\\OneDrive\\Desktop\\Crypto_exercise\\prices\\ETH_values_test.csv</data.file.path.eth>
-                        <data.file.path.ltc>C:\\Users\\dimpi\\OneDrive\\Desktop\\Crypto_exercise\\prices\\LTC_values_test.csv</data.file.path.ltc>
-                        <data.file.path.xrp>C:\\Users\\dimpi\\OneDrive\\Desktop\\Crypto_exercise\\prices\\XRP_values_test.csv</data.file.path.xrp>
+                        <data.file.path.btc>prices\\BTC_values_test.csv</data.file.path.btc>
+                        <data.file.path.doge>prices\\DOGE_values_test.csv</data.file.path.doge>
+                        <data.file.path.eth>prices\\ETH_values_test.csv</data.file.path.eth>
+                        <data.file.path.ltc>prices\\LTC_values_test.csv</data.file.path.ltc>
+                        <data.file.path.xrp>prices\\XRP_values_test.csv</data.file.path.xrp>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

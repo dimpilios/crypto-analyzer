@@ -14,6 +14,27 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 public class CryptoAnalyzerApplicationE2ETest {
 
+    private static final String btcFilePathProperty = "data.file.path.btc";
+    private static final String dogeFilePathProperty = "data.file.path.doge";
+    private static final String ethFilePathProperty = "data.file.path.eth";
+    private static final String ltcFilePathProperty = "data.file.path.ltc";
+    private static final String xrpFilePathProperty = "data.file.path.xrp";
+    private static final String btcFilePath = "prices\\BTC_values_test.csv";
+
+    private static final String dogeFilePath = "prices\\DOGE_values_test.csv";
+    private static final String ethFilePath = "prices\\ETH_values_test.csv";
+    private static final String ltcFilePath = "prices\\LTC_values_test.csv";
+    private static final String xrpFilePath = "prices\\XRP_values_test.csv";
+
+    static {
+        System.setProperty("data.file.path.property.format", "data.file.path");
+        System.setProperty(btcFilePathProperty, btcFilePath);
+        System.setProperty(dogeFilePathProperty, dogeFilePath);
+        System.setProperty(ethFilePathProperty, ethFilePath);
+        System.setProperty(ltcFilePathProperty, ltcFilePath);
+        System.setProperty(xrpFilePathProperty, xrpFilePath);
+    }
+
     @Autowired
     private MockMvc mockMvc;
 
